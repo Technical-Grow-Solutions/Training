@@ -1,2 +1,2 @@
 # Training
-All about plant-training
+All about plant-training.
