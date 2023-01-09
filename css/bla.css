@@ -1,0 +1,334 @@
+BODY
+{
+    BACKGROUND-IMAGE: url(file://C:\EUreka\Public\Three Musketeers\Training\Images\BarBetween [H].gif);
+    PADDING-BOTTOM: 0px;
+    BACKGROUND-COLOR: #01009a;
+    MARGIN: 0px;
+    PADDING-LEFT: 0px;
+    BACKGROUND-ATTACHMENT: fixed;
+    PADDING-RIGHT: 0px;
+    FONT-FAMILY: 'Roboto', sans-serif;
+    BACKGROUND-POSITION: center bottom;
+    COLOR: #ffffff;
+    PADDING-TOP: 15px
+}
+IMG
+{
+    MAX-WIDTH: 100%
+}
+PRE
+{
+    DISPLAY: inline;
+    WORD-WRAP: break-word;
+    BACKGROUND: #f5f5f5
+}
+PRE > CODE
+{
+    BORDER-BOTTOM: #eee 1px solid;
+    BORDER-LEFT: #eee 1px solid;
+    PADDING-BOTTOM: 12px;
+    OVERFLOW-Y: auto;
+    MARGIN-TOP: 12px;
+    PADDING-LEFT: 12px;
+    PADDING-RIGHT: 12px;
+    DISPLAY: block;
+    MARGIN-BOTTOM: 12px;
+    BACKGROUND: none transparent scroll repeat 0% 0%;
+    BORDER-TOP: #eee 1px solid;
+    BORDER-RIGHT: #eee 1px solid;
+    PADDING-TOP: 12px
+}
+PRE.lineNumbers
+{
+    DISPLAY: block
+}
+PRE.lineNumbers > CODE
+{
+    PADDING-BOTTOM: 0px;
+    PADDING-LEFT: 0px;
+    PADDING-RIGHT: 0px;
+    DISPLAY: inline;
+    PADDING-TOP: 0px
+}
+PRE.lineNumbers > CODE:before
+{
+    TEXT-ALIGN: right;
+    PADDING-BOTTOM: 0px;
+    PADDING-LEFT: 0.5em;
+    WIDTH: 2.2em;
+    PADDING-RIGHT: 0.5em;
+    DISPLAY: inline-block;
+    COLOR: #999;
+    MARGIN-LEFT: -4em;
+    COUNTER-INCREMENT: line;
+    CONTENT: counter(line);
+    MARGIN-RIGHT: 0.5em;
+    BORDER-RIGHT: #ddd 1px solid;
+    PADDING-TOP: 0px
+}
+PRE.bash > CODE
+{
+    PADDING-BOTTOM: 4px;
+    MARGIN: 0px;
+    PADDING-LEFT: 4px;
+    PADDING-RIGHT: 4px;
+    PADDING-TOP: 4px
+}
+PRE.bash > CODE:before
+{
+    WIDTH: 2em;
+    DISPLAY: inline-block;
+    COLOR: 
+}
+TD
+{
+    PADDING-BOTTOM: 8px;
+    PADDING-LEFT: 8px;
+    PADDING-RIGHT: 8px;
+    FONT-SIZE: 14px;
+    PADDING-TOP: 8px
+}
+TR:hover
+{
+    BACKGROUND-COLOR: #fafafa
+}
+BUTTON
+{
+    BORDER-BOTTOM: medium none;
+    TEXT-ALIGN: center;
+    BORDER-LEFT: medium none;
+    PADDING-BOTTOM: 6px;
+    BACKGROUND-COLOR: #999;
+    MARGIN: 4px 2px;
+    PADDING-LEFT: 12px;
+    PADDING-RIGHT: 12px;
+    DISPLAY: inline-block;
+    COLOR: white;
+    FONT-SIZE: 14px;
+    BORDER-TOP: medium none;
+    CURSOR: pointer;
+    BORDER-RIGHT: medium none;
+    TEXT-DECORATION: none;
+    PADDING-TOP: 6px;
+    box-shadow: 1px 1px 1px #aaa
+}
+BUTTON:hover
+{
+    box-shadow: 1px 1px 3px #555
+}
+BUTTON:focus
+{
+    OUTLINE-STYLE: none;
+    OUTLINE-COLOR: invert;
+    OUTLINE-WIDTH: medium;
+    box-shadow: 1px 1px 3px #555
+}
+article
+{
+    Z-INDEX: 1;
+    BOX-SIZING: border-box;
+    POSITION: relative;
+    TEXT-ALIGN: left;
+    PADDING-BOTTOM: 3em;
+    BACKGROUND-COLOR: #fff;
+    MARGIN: 0px auto 48px;
+    PADDING-LEFT: 3em;
+    WIDTH: 70%;
+    PADDING-RIGHT: 3em;
+    MAX-WIDTH: 1080px;
+    FONT-SIZE: 1em;
+    OVERFLOW: hidden;
+    PADDING-TOP: 3em;
+    box-shadow: 1px 1px 5px #555
+}
+A
+{
+    COLOR: ;
+    CURSOR: pointer;
+    TEXT-DECORATION: underline
+}
+A:visited
+{
+    COLOR: ;
+    CURSOR: pointer;
+    TEXT-DECORATION: underline
+}
+A:hover
+{
+    COLOR: #aaa
+}
+LI > A
+{
+    TEXT-DECORATION: none
+}
+DIV.back
+{
+    MARGIN-TOP: 1em;
+    FLOAT: left
+}
+DIV.next
+{
+    MARGIN-TOP: 1em;
+    FLOAT: right
+}
+DIV.back > A
+{
+    COLOR: ;
+    TEXT-DECORATION: none
+}
+DIV.next > A
+{
+    COLOR: ;
+    TEXT-DECORATION: none
+}
+DIV.back > A:hover
+{
+    COLOR: #777;
+    TEXT-DECORATION: none
+}
+DIV.next > A:hover
+{
+    COLOR: #777;
+    TEXT-DECORATION: none
+}
+DIV.backArr
+{
+    Z-INDEX: 2;
+    POSITION: fixed;
+    MARGIN-TOP: -12px;
+    MARGIN-LEFT: 20px;
+    LEFT: 3%
+}
+DIV.nextArr
+{
+    Z-INDEX: 2;
+    POSITION: fixed;
+    MARGIN-TOP: -12px;
+    RIGHT: 3%;
+    MARGIN-RIGHT: -12px
+}
+DIV.backArr > A:hover
+{
+    COLOR: #777;
+    TEXT-DECORATION: none
+}
+DIV.backArr > A
+{
+    COLOR: #777;
+    TEXT-DECORATION: none
+}
+divArr.next > A:hover
+{
+    COLOR: #777;
+    TEXT-DECORATION: none
+}
+DIV.nextArr > A
+{
+    COLOR: #777;
+    TEXT-DECORATION: none
+}
+footer
+{
+    TEXT-ALIGN: center;
+    PADDING-BOTTOM: 6px;
+    MARGIN-TOP: 12px;
+    PADDING-LEFT: 6px;
+    PADDING-RIGHT: 6px;
+    FONT-FAMILY: 'Roboto', sans-serif;
+    COLOR: #444;
+    FONT-SIZE: 14px;
+    PADDING-TOP: 6px
+}
+HR
+{
+    MARGIN: 20px auto
+}
+nav
+{
+    Z-INDEX: 2;
+    BOX-SIZING: border-box;
+    POSITION: fixed;
+    TEXT-ALIGN: left;
+    PADDING-BOTTOM: 32px;
+    BACKGROUND-COLOR: #000000;
+    PADDING-LEFT: 32px;
+    WIDTH: 260px;
+    PADDING-RIGHT: 32px;
+    OVERFLOW: hidden;
+    PADDING-TOP: 32px;
+    TOP: 0px;
+    LEFT: -228px;
+    box-shadow: 1px 1px 5px #555;
+    transition: left 500ms
+}
+nav:hover
+{
+    LEFT: 0px !important
+}
+nav > DIV > OL
+{
+    PADDING-LEFT: 20px
+}
+BODY
+{
+    MARGIN-LEFT: 32px
+}
+article
+{
+    WIDTH: 88%
+}
+article
+{
+    PADDING-BOTTOM: 32px;
+    OVERFLOW-X: auto;
+    MARGIN: 0px;
+    PADDING-LEFT: 36px;
+    PADDING-RIGHT: 36px;
+    MAX-WIDTH: 100%;
+    PADDING-TOP: 16px
+}
+BODY
+{
+    PADDING-BOTTOM: 0px;
+    BACKGROUND-COLOR: #ccc;
+    MARGIN: 0px;
+    PADDING-LEFT: 0px;
+    PADDING-RIGHT: 0px;
+    PADDING-TOP: 0px
+}
+TD
+{
+    PADDING-BOTTOM: 6px;
+    PADDING-LEFT: 6px;
+    PADDING-RIGHT: 6px;
+    FONT-SIZE: 12px;
+    PADDING-TOP: 6px
+}
+nav
+{
+    POSITION: relative;
+    PADDING-BOTTOM: 12px;
+    PADDING-LEFT: 2em;
+    WIDTH: 100%;
+    PADDING-RIGHT: 2em;
+    HEIGHT: 32px;
+    OVERFLOW: hidden;
+    PADDING-TOP: 12px;
+    LEFT: 0px;
+    transition: height 500ms, padding 500ms;
+    -webkit-transition: height 500ms, padding 500ms;
+    -moz-transition: height 500ms, padding 500ms
+}
+nav:hover
+{
+    PADDING-BOTTOM: 2em;
+    PADDING-LEFT: 2em;
+    PADDING-RIGHT: 2em;
+    OVERFLOW: auto;
+    PADDING-TOP: 2em;
+    LEFT: 0px
+}
+DIV.backArr
+{
+    MARGIN-LEFT: -12px
+}
