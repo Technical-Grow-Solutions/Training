@@ -450,15 +450,7 @@ a:active {
   /* =========== HEADER-Shrink =========== */
   /* =========== SCROLL-Smooth =========== */
   /* =========== SCROLLBAR-Customize =========== */
-  /* =========== SCROLL-ToTop-Button =========== */
-  /* =========== SCROLLBAR-Indicator =========== */
-  /* =========== SLIDESHOW =========== */
-  /* =========== PAGINATION =========== */
-  /* =========== BULLIT-Color =========== */
-  /* =========== TEXT-Input =========== */
-  /* =========== TEXT-Selection-Colors =========== */
-  /* =========== BUTTON-hoover =========== */
-  /* =========== SNACKBAR =========== */
+
   #article {
     /*width: 10vw;*/
     width: 20%;
@@ -467,4 +459,17 @@ a:active {
     /*overflow-x: auto;*/
     /*padding: 16px 36px 32px 36px;*/
   }
+  /* =========== SCROLL-ToTop-Button =========== */
+  #scroll-ToTop-button {
+    bottom: 4px;
+    right: 4px;
+  }
+  /* =========== SCROLLBAR-Indicator =========== */
+  /* =========== SLIDESHOW =========== */
+  /* =========== PAGINATION =========== */
+  /* =========== BULLIT-Color =========== */
+  /* =========== TEXT-Input =========== */
+  /* =========== TEXT-Selection-Colors =========== */
+  /* =========== BUTTON-hoover =========== */
+  /* =========== SNACKBAR =========== */
 }
