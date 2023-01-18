@@ -40,25 +40,25 @@
                 <br><a href="https://www.royalqueenseeds.com/search?search_query=deficiency&orderby=position&orderway=desc">Source</a></p>
                     <h3>Recognize the nutritional deficiency</h3>
                     <!--Macro Nutrients-->
-                    <a href="#Nitrogen"><img src="./images/Nitrogen (N).webp" align="absmiddle"></a>
-                    <a href="#Phosphorus"><img src="./images/Phosphorus (P).webp" align="absmiddle"></a>
-                    <a href="#Potassium"><img src="./images/Potassium (K).webp" align="absmiddle"></a>
-                    <a href="#Calcium"><img src="./images/Calcium (Ca).webp" align="absmiddle"></a>
-                    <a href="#Magnesium"><img src="./images/Magnesium (Mg).webp" align="absmiddle"></a>
-                    <a href="#Sulphur"><img src="./images/Sulphur (S).webp" align="absmiddle"></a>
+                    <a href="#Nitrogen" onclick='fHeaderChange("Nitrogen (N)")'><img src="./images/Nitrogen (N).webp" align="absmiddle"></a>
+                    <a href="#Phosphorus" onclick='fHeaderChange("Phosphorus (P)")'><img src="./images/Phosphorus (P).webp" align="absmiddle"></a>
+                    <a href="#Potassium" onclick='fHeaderChange("Potassium (K)")'><img src="./images/Potassium (K).webp" align="absmiddle"></a>
+                    <a href="#Calcium" onclick='fHeaderChange("Calcium (Ca)")'><img src="./images/Calcium (Ca).webp" align="absmiddle"></a>
+                    <a href="#Magnesium" onclick='fHeaderChange("Magnesium (Mg)")'><img src="./images/Magnesium (Mg).webp" align="absmiddle"></a>
+                    <a href="#Sulphur" onclick='fHeaderChange("Sulphur (S)")'><img src="./images/Sulphur (S).webp" align="absmiddle"></a>
                     <p></p>
                     <!--Micro Nutrients-->
-                    <a href="#Iron"><img src="./images/Iron (Fe).webp" align="absmiddle"></a>
-                    <a href="#Boron"><img src="./images/Boron (B).webp" align="absmiddle"></a>
-                    <a href="#Molybdenum"><img src="./images/Molybdenum (Mo).webp" align="absmiddle"></a>
-                    <a href="#Manganese"><img src="./images/Manganese (Mn).webp" align="absmiddle"></a>
-                    <a href="#Zinc"><img src="./images/Zinc (Zn).webp" align="absmiddle"></a>
+                    <a href="#Iron" onclick='fHeaderChange("Iron (Fe)")'><img src="./images/Iron (Fe).webp" align="absmiddle"></a>
+                    <a href="#Boron" onclick='fHeaderChange("Boron (B)")'><img src="./images/Boron (B).webp" align="absmiddle"></a>
+                    <a href="#Molybdenum" onclick='fHeaderChange("Molybdenum (Mo)")'><img src="./images/Molybdenum (Mo).webp" align="absmiddle"></a>
+                    <a href="#Manganese" onclick='fHeaderChange("Manganese (Mn)")'><img src="./images/Manganese (Mn).webp" align="absmiddle"></a>
+                    <a href="#Zinc" onclick='fHeaderChange("Zinc (Zn)")'><img src="./images/Zinc (Zn).webp" align="absmiddle"></a>
             </div>
             <!--Ends DIFFERENT CONTAINER-->
 
             <!--Starts DIFFERENT CONTAINER-->
             <div id="MacroVSMicroNutrients">
-                <h1>Macro VS micronutrients</h1>
+                <h1>Macro VS micro nutrients</h1>
                 <p><b>Macronutrients</b> are minerals that cannabis plants require in large amounts. 
                 <br>These include nitrogen, phosphorus, and potassium. Just like fats, carbs, and protein form the cornerstone of the human diet, cannabis needs these important minerals in large quantities to carry out key processes.</p>
                 <p><b>Micronutrients</b> are minerals and elements required in much smaller amounts.
@@ -492,6 +492,12 @@
                 document.body.scrollTop = 0;
                 document.documentElement.scrollTop = 0;
             }            
+        </script>
+        <script>
+            /* =========== HEADER =========== */
+            function fHeaderChange(bla) {
+            document.getElementById("headervalue").innerHTML=bla;
+            }
         </script>
         <!--Ends Script-->
     </body>
