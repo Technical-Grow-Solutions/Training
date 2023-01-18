@@ -7,10 +7,10 @@
         <meta name="author" content="M.F.Saathof">
         <meta http-equiv="Content-Type" content="text/html" charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-        <link href="../../css/iframe.css" rel="stylesheet" type="text/css">
-        <link href="../../css/roboto.css" rel="stylesheet" type="text/css">
+        <link href="../../styles/page.css" rel="stylesheet" type="text/css">
+        <link href="../../styles/roboto.css" rel="stylesheet" type="text/css">
         <!-- =========== JS script file =========== -->
-        <script type="text/javascript" src="../../js/iframe.js"></script>
+        <script type="text/javascript" src="../../styles/page.js"></script>
         
         <!--Scroll Smooth-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -21,9 +21,10 @@
         <!-- =========== SCROLL-ToTop-Button =========== -->
         <button onclick="fScrollToTop()" id="scroll-ToTop-button" title="Go to top">Top</button>
 
-
         <!-- =========== HEADER block =========== -->
-        <div id="header">Page's header</div>
+        <div id="header">
+            <div id="headervalue">Intro</div>        
+        </div>
 
         <!-- =========== SCROLL-Indicator =========== -->
         <div id="scroll-indicator-container">
@@ -43,39 +44,40 @@
                     
                     <!--Starts TABLE -->
                     <table cols="1" width="50%" border="0" Align="center">
-                    <tr><td width="14%" align="left"><a href="#AnatomyRoots"><b>Roots</b></a></td></tr>
-                    <tr><td><a href="#AnatomyCotyledon"><b>Cotyledon zaadlobben</b></a></td></tr>
-                    <tr><td><a href="#AnatomyThrunkBranches"><b>Thrunk Branches</b></a></td></tr>
-                    <tr><td><a href="#InterNodes"><b>Nodes and Internodes</b></a></td></tr>
-                    <tr><td><a href="#AnatomyLeaveDiff"><b>Leave Difference</b></a></td></tr>
-                    <tr><td><a href="#AnatomyFanLeaves"><b> Fan Leaves</b></a></td></tr>
-                    <tr><td><a href="#AnatomySugarLeaves"><b>Sugar Leaves</b></a></td></tr>
-                    <tr><td><a href="#AnatomyPhotoSyntectic"><b>Photo Syntectic</b></a></td></tr>
-                    <tr><td><a href="#AnatomyMaleFemaleHermafrodite"><b>Male - Female - Hermafrodite</b></a></td></tr>
-                    <tr><td><a href="#AnatomyChalice"><b>Chalice</b></a></td></tr>
-                    <tr><td><a href="#AnatomyPistil"><b>Pistils not hairs</b></a></td></tr>
-                    <tr><td><a href="#AnatomyColaBud"><b>Cola - Bud</b></a></td></tr>
-                    <tr><td><a href="#AnatomyGenoType"><b>Geno type</b></a></td></tr>
-                    <tr><td><a href="#AnatomyFenoType"><b>Feno typen</b></a></td></tr>
-                    <tr><td><a href="#AnatomyTrichomes"><b>Trichomes</b></a></td></tr>
+                    <tr><td width="14%" align="left"><a href="#Roots" onclick='fHeaderChange("Roots")'><b>Roots</b></a></td></tr>
+                    <tr><td><a href="#Cotyledon" onclick='fHeaderChange("Cotyledon")'><b>Cotyledon</b></a></td></tr>
+                    <tr><td><a href="#ThrunkBranches" onclick='fHeaderChange("Thrunk branches")'><b>Thrunk branches</b></a></td></tr>
+                    <tr><td><a href="#InterNodes" onclick='fHeaderChange("Nodes and internodes")'><b>Nodes and internodes</b></a></td></tr>
+                    <tr><td><a href="#CannaSeedDiff" onclick='fHeaderChange("Seed difference")'><b>Seed difference</b></a></td></tr>
+                    <tr><td><a href="#LeaveDiff" onclick='fHeaderChange("Leave difference")'><b>Leave difference</b></a></td></tr>
+                    <tr><td><a href="#FanLeaves" onclick='fHeaderChange("Fan leaves")'><b>Fan leaves</b></a></td></tr>
+                    <tr><td><a href="#SugarLeaves" onclick='fHeaderChange("Sugar leaves")'><b>Sugar leaves</b></a></td></tr>
+                    <tr><td><a href="#PhotoSyntectic" onclick='fHeaderChange("Photo syntectic")'><b>Photo syntectic</b></a></td></tr>
+                    <tr><td><a href="#MaleFemaleHermafrodite" onclick='fHeaderChange("Male - Female - Hermafrodite")'><b>Male - Female - Hermafrodite</b></a></td></tr>
+                    <tr><td><a href="#Chalice" onclick='fHeaderChange("Chalice")'><b>Chalice</b></a></td></tr>
+                    <tr><td><a href="#Pistil" onclick='fHeaderChange("Pistils (not hairs)")'><b>Pistils not hairs</b></a></td></tr>
+                    <tr><td><a href="#ColaBud" onclick='fHeaderChange("Cola - bud")'><b>Cola - bud</b></a></td></tr>
+                    <tr><td><a href="#GenoType" onclick='fHeaderChange("Geno type")'><b>Geno type</b></a></td></tr>
+                    <tr><td><a href="#FenoType" onclick='fHeaderChange("Feno typen")'><b>Feno typen</b></a></td></tr>
+                    <tr><td><a href="#Trichomes" onclick='fHeaderChange("Trichomes")'><b>Trichomes</b></a></td></tr>
                     </table>
                     <!--Ends TABLE -->                
             </div>
             <!--Ends DIFFERENT CONTAINER-->
     
             <!--Starts DIFFERENT CONTAINER-->
-            <div id="AnatomyRoots">
+            <div id="Roots">
                 <blockquote>
                     <p><STRONG>Beneath the top layer of the growing plant, the roots are busy at the same time keeping the plant stable and absorbing substances that nourish the plant.</STRONG></p>
                     <p>The root area consists of the main root, which all branches out making it a fibrous mass.
-                    <br>The roots are part of the vascular system of the plant also called the <b><a href="#AnatomyPhotoSyntectic">xylem</a></b>.</p>
+                    <br>The roots are part of the vascular system of the plant also called the <b><a href="#PhotoSyntectic">xylem</a></b>.</p>
                     <p><CENTER><img src="images/Roots.jpg" width="850" height="250"></CENTER></p>
                 </blockquote>
             </div>
             <!--Ends DIFFERENT CONTAINER-->
             
             <!--Starts DIFFERENT CONTAINER-->
-            <div id="AnatomyCotyledon">
+            <div id="Cotyledon">
                 <blockquote>
                     <p><STRONG>Cotyledons are embryonic leaves that occur in seed-bearing plants. 
                     <br>They form during the development of the embryo, along with the meristem of the root and stem.</STRONG></p>
@@ -89,7 +91,7 @@
             <!--Ends DIFFERENT CONTAINER-->
             
             <!--Starts DIFFERENT CONTAINER-->
-            <div id="AnatomyThrunkBranches">
+            <div id="ThrunkBranches">
                 <blockquote>
                     <p><STRONG>The main stem arises from the roots and gives the plant the <I>support</I> to grow straight up and is a <I>barrel highway</I>,
                         <br>which makes the water and minerals go up from the roots.</STRONG></p>
@@ -101,7 +103,7 @@
             <!--Ends DIFFERENT CONTAINER-->
             
             <!--Starts DIFFERENT CONTAINER-->
-            <div id="AnatomyInterNodes">
+            <div id="InterNodes">
                 <blockquote>
                     <p><STRONG>The leaves emerge in pairs from a leaf node on each side of the stem.
                     <br>A <b>node</b> (new branch) arises in the axil of the trunk and the stem of the leaf.</STRONG></p>
@@ -114,7 +116,7 @@
             <!--Ends DIFFERENT CONTAINER-->
             
             <!--Starts DIFFERENT CONTAINER-->
-            <div id="AnatomyCannaSeedDiff">
+            <div id="CannaSeedDiff">
                 <blockquote>
                     <p><STRONG>There are 3 difference seeds you can buy.</STRONG></p>                    
                     <p><b>Regulair -</b> the outcome can be feminesed or masculair.</b>.
@@ -125,7 +127,7 @@
             <!--Ends DIFFERENT CONTAINER-->
 
             <!--Starts DIFFERENT CONTAINER-->
-            <div id="AnatomyLeaveDiff">
+            <div id="LeaveDiff">
                 <blockquote>
                     <p><STRONG>There are 4 different species of cannabis.</STRONG></p>
                     <p>Sativa, Indica and Ruderalis
@@ -163,21 +165,21 @@
             <!--Ends DIFFERENT CONTAINER-->
             
             <!--Starts DIFFERENT CONTAINER-->
-            <div id="AnatomyFanLeaves">
+            <div id="FanLeaves">
                 <blockquote>
                     <p><STRONG>Fan leaves(Fan leaves) also have the same symmetry and also grow in pairs from the main stem and branches.
                     <br>You can also tell the difference between an indica and a sativa marijuana by the leaves.</STRONG></p>
-                    <p>The leaves are essential for the <b><a href="#AnatomyPhotoSyntectic">photosynthesis</a></b> and should not be pruned excessively, which can be removed in the shade in the late flowering stage, otherwise they keeping the lower tops from the light.</p>
+                    <p>The leaves are essential for the <b><a href="#PhotoSyntectic">photosynthesis</a></b> and should not be pruned excessively, which can be removed in the shade in the late flowering stage, otherwise they keeping the lower tops from the light.</p>
                     <p><CENTER><img src="images/FanLeaves.jpg" width="648" height="250"></CENTER></p>
                 </blockquote>
             </div>
             <!--Ends DIFFERENT CONTAINER-->
             
             <!--Starts DIFFERENT CONTAINER-->
-            <div id="AnatomySugarLeaves">
+            <div id="SugarLeaves">
                 <blockquote>
                     <p><STRONG>Sugar leaves (Sugar leaves) are usually all the leaves in the top of which you clearly cannot see the stem.
-                    <br>They often contain as much <a href="#AnatomyTrichomes">trichomes</a> (THC) as the bud itself.</STRONG></p>
+                    <br>They often contain as much <a href="#Trichomes">trichomes</a> (THC) as the bud itself.</STRONG></p>
                     <p>With a microscope you can see that it looks like they have been sprinkled with fine granulated sugar.
                     <br>Keep the sugar leaves full of trichomes that make your cutting waste valuable, you can still make anything out of it.
                     <br>Please note that for some applications it is best to freeze the sugar leaves immediately after harvesting.</p>
@@ -187,7 +189,7 @@
             <!--Ends DIFFERENT CONTAINER-->
             
             <!--Starts DIFFERENT CONTAINER-->
-            <div id="AnatomyPhotoSyntectic">
+            <div id="PhotoSyntectic">
                 <blockquote>
                     <p><STRONG>In the leaves, the assimilates are produced by <I>photosynthesis</I> under the influence of light and transported to all other parts of the plant via the <I>phloem</I>.</STRONG></p>
                     <p><b>Assimilation</b> is a biochemical process in which an organic compound is built from simpler <b>organic</b> compounds or from <b>inorganic</b> substances, especially <b>carbon dioxide</b> and < B>water</b>. 
@@ -201,12 +203,10 @@
             <!--Ends DIFFERENT CONTAINER-->
             
             <!--Starts DIFFERENT CONTAINER-->
-            <div id="AnatomyMaleFemaleHermafrodite">
+            <div id="MaleFemaleHermafrodite">
                 <blockquote>
                     <p><STRONG>Topping is simply an all-encompassing term for the flowers that come out</STRONG></p>
                     <p>If you see a 'white hair'(pistil) popping up in a leaf node before the flowering stage, it means it is a <b>female</b> plant.</p>
-                    <p>
-                    <br>.</p>
                     <p><CENTER><img src="images/BloomDiff.jpg" width="850" height="250"></CENTER></p>
                     <p>The <b>males</b> plant does not produce buds when in flower, but stamens with anthers that are full of pollen a few weeks earlier than the females.
                     <br>Nor will it necessarily be the largest and most powerful plant in the garden.</p>
@@ -217,7 +217,7 @@
             <!--Ends DIFFERENT CONTAINER-->
             
             <!--Starts DIFFERENT CONTAINER-->
-            <div id="AnatomyChalice">
+            <div id="Chalice">
                 <blockquote>
                     <p><STRONG>Buds are not just a scattered clump of leaves and sticky resin.
                     <br>Calyxes are the small clusters that resemble a teardrop that hold the cannabis flower together.</STRONG></p>
@@ -233,7 +233,7 @@
             <!--Ends DIFFERENT CONTAINER-->
             
             <!--Starts DIFFERENT CONTAINER-->
-            <div id="AnatomyPistil">
+            <div id="Pistil">
                 <blockquote>
                     <p><STRONG>Pistils are what people sometimes call the 'hairs' or 'nuggs'.
                     <br>Together with the calyxes, which contain eggs, these are the plant's reproductive organs.</STRONG></p>
@@ -248,7 +248,7 @@
             <!--Ends DIFFERENT CONTAINER-->
             
             <!--Starts DIFFERENT CONTAINER-->
-            <div id="AnatomyColaBud">
+            <div id="ColaBud">
                 <blockquote>
                     <p><STRONG>A <b>colaB> is simply the flowering top of the female plant.</STRONG></p>
                     <p>Of course, different growing methods and techniques will give you multiple buds.(<b>Buds</b>)
@@ -258,7 +258,7 @@
             <!--Ends DIFFERENT CONTAINER-->
             
             <!--Starts DIFFERENT CONTAINER-->
-            <div id="AnatomyGenoType">
+            <div id="GenoType">
                 <blockquote>
                     <p><STRONG>Bla.
                     <br>bla .</STRONG></p>
@@ -272,7 +272,7 @@
             <!--Ends DIFFERENT CONTAINER-->
             
             <!--Starts DIFFERENT CONTAINER-->
-            <div id="AnatomyFenoType">
+            <div id="FenoType">
                 <blockquote>
                     <p><STRONG>Bla.
                     <br>bla .</STRONG></p>
@@ -286,7 +286,7 @@
             <!--Ends DIFFERENT CONTAINER-->
             
             <!--Starts DIFFERENT CONTAINER-->
-            <div id="AnatomyTrichomes">
+            <div id="Trichomes">
                 <blockquote>
                 <p><STRONG>Trichomes is the glistening sticky resinous coating that covers the beautiful cannabis buds.</STRONG></p>
                 <p>During the flowering period, the calyxes and surrounding sugar petals will become covered with fields of small mushroom-covered stems.
@@ -337,7 +337,7 @@
 
         <!--Starts Script-->
         <script>
-            // =========== SLIDE SHOW ===========
+            /* =========== SLIDE SHOW =========== */
             var slideIndex = 1;
             fshowSlide(slideIndex);
             
@@ -366,20 +366,20 @@
             }
         </script>
         <script>
-            // =========== HEADER-Shrink ===========
+            /* =========== HEADER-Shrink =========== */
             var headerShrink = document.getElementById("header");
-            // =========== SCROLL-ToTop-Button ===========
+            /* =========== SCROLL-ToTop-Button =========== */
             var butScrollToTop = document.getElementById("scroll-ToTop-button");
-            // =========== SCROLL-Indicator-Container ===========
+            /* =========== SCROLL-Indicator-Container =========== */
             var scrollIndicatorContainer = document.getElementById("scroll-indicator-container");
-            // =========== SCROLL-Indicator-Bar ===========
+            /* =========== SCROLL-Indicator-Bar =========== */
             var scrollIndicatorBar = document.getElementById("scroll-indicator-bar");
 
             // When the user scrolls the page, execute this Function to: HeaderShrink, ScrollToTop-button, Scroll-Indicator.
             window.onscroll = function() {fScroll()};
                     
             function fScroll() {
-                // Scroll-Indicator
+                /* =========== Scroll-Indicator =========== */
                 var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
                 var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
                 var scrolled = (winScroll / height) * 100;
@@ -398,13 +398,20 @@
                 }
             }
 
-            // When the user clicks on the button, scroll to the top of the document
+            /* =========== SCROLL-ToTop-Button =========== */
             function fScrollToTop() {
                 document.body.scrollTop = 0;
                 document.documentElement.scrollTop = 0;
             }
         </script>
         <script>
+            /* =========== HEADER =========== */
+            function fHeaderChange(bla) {
+            document.getElementById("headervalue").innerHTML=bla;
+            }
+        </script>
+        <script>
+            /* =========== SNACKBAR =========== */
             function fSnackbar() {
                 var x = document.getElementById("snackbar");
                 x.className = "show";
