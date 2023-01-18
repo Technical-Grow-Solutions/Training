@@ -1,6 +1,6 @@
 <!--PRIVATE document PROTECTED BY INTERNATIONAL LAW.-->
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 strict //EN">
-<html lang="en">
+<html>
     <!--Starts Head-->
     <head>
         <!--<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">-->
@@ -9,9 +9,9 @@
         <meta name="author" content="M.F.Saathof">
         <meta http-equiv="Content-Type" content="text/html" charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-        <link href="css/main.css" rel="stylesheet" type="text/css">
-        <link href="css/roboto.css" rel="stylesheet" type="text/css">
-        <script type="text/javascript" src="/js/main.js"></script>      
+        <link href="styles/main.css" rel="stylesheet" type="text/css">
+        <link href="styles/roboto.css" rel="stylesheet" type="text/css">
+        <script type="text/javascript" src="/styles/main.js"></script>      
         <title>Technical Grow Solutions</title>
         <link href="images/comp_icon.ico"rel="icon" type="image/x-icon">
     </head>
@@ -20,7 +20,7 @@
     translate="no"
     <span translate="no"> Docker</span>
     <!--Starts Body-->
-    <body>
+    <body lang="en">
         <!-- =========== ICON SIDEBAR =========== -->
         <nav class="main-menu">
             <!-- Menuheader Culture -->
@@ -129,7 +129,7 @@
                     </a>
                     <ul>
                         <li><a href="q&a/insects/insects.html" onclick='fChapterchange("Insects")' target="mainiframe">Insects</a></li>
-                        <li><a href="q&a/nutritionshortage/nutritionshortage.html" onclick='fChapterchange("Nutrition shortage")' target="mainiframe">Nutrition shortage</a></li>
+                        <li><a href="q&a/deficiency/deficiency.html" onclick='fChapterchange("Deficiency")' target="mainiframe">Deficiency</a></li>
                     </ul>
                 </li>
             </ul>
@@ -211,20 +211,20 @@
         <div class="footer">
             <div class="footer-credit" translate="no">
                 <script>
-                    document.write('Copyright&ensp;&copy;&ensp;');
+                    document.write('Copyright&ensp;&copy;');
                     document.write(new Date().getFullYear());
                     document.write('&ensp;Technical Grow Solutions');
                     document.write('&ensp;-&ensp;All Rights Reserved');
-                    document.write('&emsp;||&emsp;Graphic design by: LeMar');
+                    document.write('&emsp;||&emsp;Graphic Design by: LeMar');
 
                 </script>
             </div>
         </div>
         
         <!--Starts Script-->
-        <!-- =========== SCRIPT =========== -->
-        <!-- =========== LOGO script =========== -->
+        <!-- =========== JS script file =========== -->
         <script>
+            /* =========== LOGO script =========== */
             var x = document.getElementById("logo");
             x.addEventListener("mouseover", logoExpand);
             x.addEventListener("mouseout", logoCollapse);
@@ -237,15 +237,14 @@
             document.getElementById("logo").classList.add("hidden");
             }      
         </script>
-
-        <!-- =========== CHAPTER script =========== -->
         <script>
+            /* ===========  CHAPTER script =========== */
             function fChapterchange(bla) {
             document.getElementById("chaptervalue").innerHTML=bla;
             }
-        </script>
-        <!-- =========== NAVIGATION SIDE script =========== -->
+        </script>        
         <script>
+            /* =========== NAVIGATION SIDE script =========== */
             function openNav() {
               document.getElementById("nav-side").style.width = "300px";
               document.getElementById("main").style.marginLeft = "300px";
@@ -257,8 +256,8 @@
               document.body.style.backgroundColor = "white";
             }
         </script>
-        <!-- =========== FULLSCREEN script =========== -->
         <script>
+            /* =========== FULLSCREEN script =========== */
             let fullscreen;
             let fs = document.getElementById("fullscr");
             fs.addEventListener("mouseover", fsOn);
@@ -297,9 +296,8 @@
             }
             }
         </script>
-
-        <!-- =========== LOGIN script =========== -->
         <script>
+            /* =========== LOGIN script =========== */
             let loggedin;
             let lg = document.getElementById("login");
             lg.addEventListener("mouseover", lgOn);
@@ -334,11 +332,8 @@
             }
             }
         </script>        
-
-        <!-- =========== JS script file =========== -->
-        
-        <!--Ends Script-->       
+        <!--Ends Script-->
     </body>
     <!--Ends Body-->
 </html>
-<!--Ends Html-->  
+<!--Ends Html-->
